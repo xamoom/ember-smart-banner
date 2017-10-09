@@ -2,7 +2,7 @@
 
 import Ember from 'ember';
 import layout from '../templates/components/smart-banner';
-import getOwner from 'ember-getowner-polyfill';
+import getOwner from 'ember-owner/get';
 import bannerStorage from '../utils/banner-storage';
 
 const {
